@@ -1,0 +1,55 @@
+
+
+#ConcreteMarks{
+    text-align: center;
+    border: 1.5px solid rgb(1, 0, 0);
+    width: 155px;
+    height: 30px;
+    background-color: rgb(251, 248, 248);
+    border-radius: 2px;
+    font-size: 15px;
+     
+}
+
+output {
+    display: inline;
+}
+
+#moratrVolume{
+    width: 180px;
+    height: 28px;
+    margin-left: 80px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 3px;
+
+}
+
+input,
+input::placeholder {
+    font-size: 12px;
+    padding: 0;
+    padding-left: 2px;
+}
+
+.aggregateCementSand{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#aggregateResult{
+    color: rgb(48, 70, 210);
+    
+}
+#sandResult{
+    color: rgb(48, 70, 210);
+    
+}
+#cementResult {
+    color: rgb(48, 70, 210);
+    
+}
+
+.cementbag{
+    font-size: 10px;
+    color: #f3f6f1;
+}
