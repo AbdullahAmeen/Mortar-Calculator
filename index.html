@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-color: rgb(164, 171, 171);">
-    <div class="container"> <br><br>
+    <div class="container-fluid"> <br><br>
         <div class="row">
             <div class="col-lg-12" style="text-align: center;">
                 <div style="text-align: center;">
@@ -16,11 +16,11 @@
                 </div>
                 <br>
                 <div class="AreaDimension">
-                    <h3>Mortar Calculator</h3>
+                    <h3>Concrete Mortar and Steel Calculator</h3>
                     <p>Please provide the dimensions of the area you're intending to concrete in feet.</p>
                 </div>
                             
-                <form oninput="x.value=parseFloat((a.value)*parseFloat(b.value)*parseFloat(c.value)).toFixed(2)+ '&nbsp;ft &sup3;'">
+                <form oninput="x.value=parseFloat(((a.value)*parseFloat(b.value)*parseFloat(c.value))*1.3).toFixed(2)+ '&nbsp;ft &sup3;'">
                     <label for="a">Width (ft)</label>&nbsp
                     <input type="number" id="a" value=""><br><br>
                     <label for="b">Length (ft)</label>
@@ -29,13 +29,13 @@
                     <input type="number" id="c" value=""><br><br>
                     <label for="total"></label>
                     
-                    Wet Mortar volume: <b style="color: rgb(22, 44, 244); font-size: 18px;"><output name="x" for="a b c"> </output></b><br>
-                    However, the volume of your dry mortar will be different. Add 30% more to your wet mortar volume.
+                    Dry Mortar volume: <b style="color: rgb(22, 44, 244); font-size: 18px;"><output name="x" for="a b c"> </output></b><br>
+                    
                 </form>
                 <hr>
 
                 <div style="text-align: center;">
-                    <p>Now enter the total volume of the dry mortar in the below box</p>
+                    <p>Enter the dry mortar volume in the below box</p>
                     <input type="number" id="moratrVolume" placeholder= "Enter your dry mortar volume">
                 </div> <br>
                 
@@ -57,12 +57,14 @@
                 <p class="aggregateCementSand">Sand: <span id="sandResult"></span></p>
                 <p class="aggregateCementSand">Cement: <span id="cementResult"></span></p>
                 <p class="aggregateCementSand">Steel: <span id="steelResult"></span></p>
-            </div>
-          
+            </div>      
 
-        </div> <br><br>
+        </div> <br><br><br>
        
     </div>
+    <p style="text-align: center; color: rgb(248, 247, 247); font-size: 15px;">Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> Abdullah Ameen
+    </p> <br><br>
 
     <script type="text/javascript" src="js/script.js"></script>
 

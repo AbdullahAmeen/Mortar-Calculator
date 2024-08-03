@@ -11,6 +11,10 @@
      
 }
 
+.AreaDimension{
+    text-align: center;
+}
+
 output {
     display: inline;
 }
@@ -37,19 +41,31 @@ input::placeholder {
 }
 
 #aggregateResult{
-    color: rgb(48, 70, 210);
+    color: rgb(251, 236, 20);
     
 }
 #sandResult{
-    color: rgb(48, 70, 210);
+    color: rgb(246, 246, 24);
     
 }
 #cementResult {
-    color: rgb(48, 70, 210);
+    color: rgb(233, 252, 17);
     
 }
 
 .cementbag{
-    font-size: 10px;
-    color: #f3f6f1;
+    font-size: 11px;
+    color: #92928e;
+}
+
+#steelResult{
+    color: rgb(253, 238, 19);
+}
+.mortarItems{
+
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
