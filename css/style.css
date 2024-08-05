@@ -41,31 +41,34 @@ input::placeholder {
 }
 
 #aggregateResult{
-    color: rgb(251, 236, 20);
+    color: rgb(250, 250, 5);
     
 }
 #sandResult{
-    color: rgb(246, 246, 24);
+    color: rgb(250, 250, 5);
     
 }
 #cementResult {
-    color: rgb(233, 252, 17);
+    color: rgb(250, 250, 5);
     
 }
 
 .cementbag{
     font-size: 11px;
-    color: #92928e;
+    color: #b5b5aa;
 }
 
 #steelResult{
-    color: rgb(253, 238, 19);
+    color:rgb(250, 250, 5);
 }
 .mortarItems{
 
     border: 1px solid red;
     border-radius: 5px;
     padding: 10px;
-    background-color: black;
+    background-color: rgb(47, 44, 44);
     color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+   
 }

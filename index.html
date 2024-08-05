@@ -20,7 +20,7 @@
                     <p>Please provide the dimensions of the area you're intending to concrete in feet.</p>
                 </div>
                             
-                <form oninput="x.value=parseFloat(((a.value)*parseFloat(b.value)*parseFloat(c.value))*1.3).toFixed(2)+ '&nbsp;ft &sup3;'">
+                <form oninput="x.value=parseFloat(((a.value)*parseFloat(b.value)*parseFloat(c.value))*1.3).toFixed(2)+ '&nbsp;ft &sup3;' +' (30% more added)'">
                     <label for="a">Width (ft)</label>&nbsp
                     <input type="number" id="a" value=""><br><br>
                     <label for="b">Length (ft)</label>
@@ -29,7 +29,7 @@
                     <input type="number" id="c" value=""><br><br>
                     <label for="total"></label>
                     
-                    Dry Mortar volume: <b style="color: rgb(22, 44, 244); font-size: 18px;"><output name="x" for="a b c"> </output></b><br>
+                    Dry Mortar Volume: <b style="color: rgb(22, 44, 244); font-size: 18px;"><output name="x" for="a b c"> </output></b><br>
                     
                 </form>
                 <hr>
