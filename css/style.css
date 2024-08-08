@@ -70,7 +70,8 @@ input::placeholder {
 
 .concreteMarkExplaination{
     border: 1px solid yellow;
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
+    font-size: 11px;
 }
 

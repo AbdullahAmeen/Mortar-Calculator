@@ -39,7 +39,7 @@
                     <input type="number" id="moratrVolume" placeholder= "Enter your dry mortar volume">
                 </div> <br>
                 
-                <p>Select your concrete mark to determine how much Aggregate, Sand and Cement you'll need. </p> <br>
+                <p>Select your concrete Mark or Grade to determine how much Aggregate, Sand and Cement you'll need. </p>
                 <label for="">Concrete Mark</label>
                 <select  id="ConcreteMarks" onchange="mortarcalculator()">
                     <option value="" disabled selected>Select Your Mark</option>
@@ -49,17 +49,7 @@
                     <option id="15">M15-1:2:4</option>
                     <option id="20">M20-1:1.5:3</option>
                     <option id="25">M25-1:1:2</option>
-                </select> <br><br><br>
-
-                <div class="concreteMarkExplaination">
-
-                    <p style="text-align: left;"><span style="color:rgb(79, 79, 233); font-size:18px"><b>Notes:</b> </span>Concrete Grades or concrete Mark refers to the strength and composition
-                    of concrete, and the minimum strength it should have after 28 days of construction. The M in 
-                    the Grade referes to "Mix" and the number indicates the concrete's strength in N/mm2 after 28 days.
-                    for instance, M10 mean the strength of concrete after 28 day is 10 Newtons/Square Millimeter or 
-                    1,450 pounds per square inch (PSI). One Newton/mm&sup2 = One Megapascal </p>
-
-                </div>
+                </select> <br>
             </div>
             <p></p><p></p>
             
@@ -70,7 +60,17 @@
                 <p class="aggregateCementSand">Steel: <span id="steelResult"></span></p>
             </div>      
 
-        </div> <br><br><br>
+        </div> <br>
+
+                        <div class="concreteMarkExplaination">
+                        
+                            <p style="text-align: left;"><span style="color:rgb(79, 79, 233); font-size:18px"><b>Notes:</b> </span>Concrete
+                                Grades or concrete Mark refers to the strength and composition
+                                of concrete, and the minimum strength it should have after 28 days of construction. The M in
+                                the Grade referes to "Mix" and the number indicates the concrete's strength in N/mm2 after 28 days.
+                                for instance, M10 mean the strength of concrete after 28 day is 10 Newtons/Square Millimeter or
+                                1,450 pounds per square inch (PSI). One Newton/mm&sup2 = One Megapascal </p>
+                        </div> <br>
        
     </div>
     <p style="text-align: center; color: rgb(248, 247, 247); font-size: 15px;">Copyright &copy;
