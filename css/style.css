@@ -20,11 +20,12 @@ output {
 }
 
 #moratrVolume{
-    width: 180px;
+    width: 178px;
     height: 28px;
     margin-left: 80px;
     border: 1.5px solid rgb(0, 0, 0);
     border-radius: 3px;
+   
 
 }
 
@@ -38,37 +39,38 @@ input::placeholder {
 .aggregateCementSand{
     font-size: 16px;
     font-weight: bold;
+    margin-left: 25px;
 }
 
 #aggregateResult{
-    color: rgb(250, 250, 5);
+    color: rgb(36, 71, 245);
     
 }
 #sandResult{
-    color: rgb(250, 250, 5);
+    color: rgb(36, 71, 245);
     
 }
 #cementResult {
-    color: rgb(250, 250, 5);
+    color: rgb(36, 71, 245);
     
 }
 
 .cementbag{
     font-size: 11px;
-    color: #b5b5aa;
+    color: #f0f011;
 }
 
 #steelResult{
-    color:rgb(250, 250, 5);
+    color:rgb(36, 71, 245);
 }
 .mortarItems{
 
-    border: 1px solid red;
-    border-radius: 5px;
     padding: 10px;
-    background-color: rgb(47, 44, 44);
-    color: white;
-    margin-left: 15px;
-    margin-right: 15px;
-   
 }
+
+.concreteMarkExplaination{
+    border: 1px solid yellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
