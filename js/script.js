@@ -11,7 +11,7 @@ function mortarcalculator() {
         case 'M5-1:5:10':
             aggregateResult = ((document.getElementById('moratrVolume').value)*(10/16)).toFixed(2) + '&nbsp;'+'ft &sup3;';
             sandResult = ((document.getElementById('moratrVolume').value*(5/16))).toFixed(2) + '&nbsp;'+'ft &sup3;';
-            cementResult = ((document.getElementById('moratrVolume').value*(1/16)*(1.52))/1.25).toFixed(2) + '&nbsp;'+'bags' +'<small class="cementbag"> (Considering a bag of 50 Kg)</small>';
+            cementResult = ((document.getElementById('moratrVolume').value*(1/16)*(1.52))/1.25).toFixed(2) + '&nbsp;'+'bags' +'<small class="cementbag"> Considering a bag of 50 Kg)</small>';
             steelResult = (((document.getElementById('moratrVolume').value))*5).toFixed(2) + '&nbsp;'+ 'lb';
             
             break;
