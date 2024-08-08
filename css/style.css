@@ -57,7 +57,7 @@ input::placeholder {
 
 .cementbag{
     font-size: 11px;
-    color: #f0f011;
+    color: #fbfbfa;
 }
 
 #steelResult{
@@ -70,7 +70,7 @@ input::placeholder {
 
 .concreteMarkExplaination{
     border: 1px solid yellow;
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
 }
 
