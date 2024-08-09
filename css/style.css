@@ -77,4 +77,15 @@ input::placeholder {
     margin-right: 15px;
     box-shadow: 2.5px 2px;
 }
-
+.submitbutton{
+    width:100px;
+    background-color:rgb(58, 55, 55) ;
+    color: rgb(244, 245, 247);
+    border: 1px solid yellow;
+    
+}
+#result{
+    color: blue;
+    font-size: 18px;
+    
+}

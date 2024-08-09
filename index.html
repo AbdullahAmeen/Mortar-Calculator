@@ -19,18 +19,18 @@
                     <h3>Concrete Mortar and Steel Calculator</h3>
                     <p>Please provide the dimensions of the area you're intending to concrete in feet.</p>
                 </div>
-                            
-                <form oninput="x.value=parseFloat(((a.value)*parseFloat(b.value)*parseFloat(c.value))*1.3).toFixed(2)+ '&nbsp;ft &sup3;' +' (30% more added)'">
-                    <label for="a">Width (ft)</label>&nbsp
-                    <input type="number" id="a" value=""><br><br>
-                    <label for="b">Length (ft)</label>
-                    <input type="number" id="b" value=""><br><br>
-                    <label for="c">Height (ft)</label>
-                    <input type="number" id="c" value=""><br><br>
-                    <label for="total"></label>
-                    
-                   <span style="font-size:18px">Dry Mortar Volume</span> <p style="color: rgb(22, 44, 244); font-size: 15px;"> <output name="x" for="a b c"> </output></p>
-                </form>
+                    <form id="calculationForm">
+                        <label for="a">Width (ft)</label>&nbsp
+                        <input type="number" id="a" value=""> <p></p>   
+                        <label for="b">Length (ft)</label>
+                        <input type="number" id="b" value=""><p></p>
+                        <label for="c">Height (ft)</label>
+                        <input type="number" id="c" value=""><br><br>
+                        <button type="button" onclick="calculate()" class="submitbutton">Calculate </button> 
+                        
+                        <output id="result"></output>    
+                    </form>        
+               
                 <hr>
 
                 <div style="text-align: center;">

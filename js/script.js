@@ -58,3 +58,12 @@ function mortarcalculator() {
     //            (document.getElementById('moratrVolume'))*(10/16)/(1.25)
     // }
 }
+
+function calculate() {
+    var width = parseFloat(document.getElementById('a').value);
+    var length = parseFloat(document.getElementById('b').value);
+    var height = parseFloat(document.getElementById('c').value);
+
+    var total = (width * length * height) * 1.3;
+    document.getElementById('result').value = total.toFixed(2);
+    }
