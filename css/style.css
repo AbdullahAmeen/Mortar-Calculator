@@ -78,14 +78,16 @@ input::placeholder {
     box-shadow: 2.5px 2px;
 }
 .submitbutton{
-    width:100px;
+    width:80px;
     background-color:rgb(58, 55, 55) ;
     color: rgb(244, 245, 247);
     border: 1px solid yellow;
+    padding: 3px;
+    border-radius: 5px;
     
 }
 #result{
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
     
 }
